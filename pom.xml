@@ -15,10 +15,18 @@
     </properties>
 
     <dependencies>
+        <!-- Google Places (New) API -->
         <dependency>
             <groupId>com.google.maps</groupId>
             <artifactId>google-maps-places</artifactId>
             <version>0.70.0</version>
+        </dependency>
+
+        <!-- Google Geocoding API -->
+        <dependency>
+            <groupId>com.google.maps</groupId>
+            <artifactId>google-maps-geocode</artifactId>
+            <version>0.11.0</version>
         </dependency>
     </dependencies>
 
